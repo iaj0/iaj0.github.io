@@ -43,7 +43,7 @@ nav ul{
 
 
 .title{
-  color: black;
+  color: white;
   z-index: 2;
   position: absolute;
   font-size: 3rem;
@@ -51,4 +51,3 @@ nav ul{
   top: 75%;
   transform: translate (-45%, -75%);
 }
-
