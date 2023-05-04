@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
+
 body,
 html{
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
 }
+
 
 .webgl{
   position: absolute;
@@ -16,7 +18,9 @@ html{
   left: 0;
   z-index: 1;
 
+
 }
+
 
 nav{
   color: white;
@@ -36,6 +40,7 @@ nav ul{
   display: flex;
   gap: 4rem;
 }
+
 
 .title{
   color: whitesmoke;
