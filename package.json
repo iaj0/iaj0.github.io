@@ -1,8 +1,8 @@
 {
-    "name": "react-portfolio",
+    "name": "iaj0",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://iramanwar.me",
+    "homepage": "https://iaj0.github.io",
     "dependencies": {
         "bootstrap": "^5.2.3",
         "emailjs-com": "^3.2.0",
@@ -25,7 +25,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -b master-d build"
+        "deploy": "gh-pages -b my-website-d build"
     },
     "eslintConfig": {
         "extends": [
