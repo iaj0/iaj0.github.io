@@ -31,9 +31,8 @@
   <!-- Portfolio header -->
   <section class="section" style="padding-bottom:1rem">
     <div class="wrap section-head reveal">
-      <span class="eyebrow">A cabinet of works</span>
-      <h2 style="font-size:clamp(2.4rem,6vw,3.8rem)">The Portfolio</h2>
-      <p class="lead" style="margin-top:1rem">A collection of things I have designed, built, coded, and machined — from industrial sensor fixtures and autonomous robots to computer-vision experiments and hand-turned CNC woodwork. Two coursework assemblies are rendered below as live 3-D models you can turn in your hands.</p>
+      <h2 style="font-size:clamp(2.4rem,6vw,3.8rem)">Portfolio</h2>
+      <p class="lead" style="margin-top:1rem">A collection of things I have designed, built, coded, and machined — from industrial sensor fixtures and autonomous robots to computer-vision experiments and CNC woodwork. A coursework assembly is rendered below as an interactive 3-D model.</p>
       <div class="flourish"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2 4 6 4 6 8s-4 4-6 12c-2-8-6-8-6-12s4-4 6-8z"/></svg></div>
     </div>
   </section>
@@ -42,31 +41,15 @@
   <section class="section section--dark" id="models" style="padding-top:2.5rem">
     <div class="wrap">
       <div class="section-head reveal">
-        <span class="eyebrow">Turn them in your hands</span>
-        <h2>Interactive 3-D Models</h2>
-        <p class="lead" style="color:#cdb98f">Drag to orbit &middot; scroll to zoom. Real SolidWorks exports load here when available; an interactive preview stands in until then.</p>
+        <h2>Interactive 3-D Model</h2>
+        <p class="lead" style="color:#cdb98f">Drag to orbit &middot; scroll to zoom — a real SolidWorks export of the assembly below.</p>
       </div>
 
-      <div class="models reveal">
+      <div class="models reveal" style="grid-template-columns:min(680px,100%);justify-content:center">
         <div class="model-card">
           <h3>Input Shaft Assembly</h3>
-          <p class="model-sub">Mechatronics design coursework — stepped shaft, spur gears &amp; keyway</p>
+          <p class="model-sub">Mechatronics design coursework — input shaft, bevel gearset &amp; bearing housing</p>
           <div class="model-viewport" data-model="shaft" data-stl="assets/models/input-shaft.stl">
-            <span class="model-badge">Loading…</span>
-            <div class="model-loading">Preparing model…</div>
-            <span class="model-hint">drag to orbit &middot; scroll to zoom</span>
-          </div>
-          <div class="model-controls">
-            <button data-action="rotate">Auto-rotate</button>
-            <button data-action="wire">Wireframe</button>
-            <button data-action="reset">Reset view</button>
-          </div>
-        </div>
-
-        <div class="model-card">
-          <h3>Beam-Balancing Robot</h3>
-          <p class="model-sub">MTE 380 final — a ball-and-beam control system</p>
-          <div class="model-viewport" data-model="beam" data-stl="assets/models/beam-balancer.stl">
             <span class="model-badge">Loading…</span>
             <div class="model-loading">Preparing model…</div>
             <span class="model-hint">drag to orbit &middot; scroll to zoom</span>
@@ -210,7 +193,8 @@
         </div>
         <div class="tags"><span class="tag">Inverse Kinematics</span><span class="tag">LIDAR</span><span class="tag">Computer Vision</span><span class="tag">Raspberry Pi</span><span class="tag">Fusion 360</span></div>
         <div class="project__body">
-          <div class="project__gallery gallery gallery--2">
+          <div class="project__gallery gallery gallery--3">
+            <div class="frame-img"><img src="assets/img/projects/murph-3.jpg" alt="Full CAD render of the Project Murph quadruped robot" loading="lazy"></div>
             <div class="frame-img"><img src="assets/img/projects/murph-1.jpg" alt="Render of the Project Murph quadruped robot" loading="lazy"></div>
             <div class="frame-img"><img src="assets/img/projects/murph-2.jpg" alt="3D-printed leg and gripper prototype" loading="lazy"></div>
           </div>
@@ -250,8 +234,7 @@
   <!-- CTA -->
   <section class="section section--tint">
     <div class="wrap section-head reveal">
-      <span class="eyebrow">Let&rsquo;s build something</span>
-      <h2>Care to see the résumé?</h2>
+      <h2>Résumé &amp; Contact</h2>
       <div class="hero__cta" style="margin-top:1.6rem">
         <a class="btn btn--primary" href="resume.html">Read the Résumé</a>
         <a class="btn" href="mailto:iram@live.com.sg">Get in touch</a>
@@ -285,7 +268,6 @@
     <div class="footer-rule"></div>
     <div class="footer-fine">
       <span>&copy; <span data-year>2026</span> Iram Anwar. All rights reserved.</span>
-      <span>Designed &amp; built in the Victorian manner.</span>
     </div>
   </div>
 </footer>

@@ -9,10 +9,16 @@ procedural preview, so the page always works.
 Export each assembly from SolidWorks and drop the files here with these exact
 names:
 
-| Viewer                | File to add                        |
+| Viewer                | File                               |
 | --------------------- | ---------------------------------- |
 | Input Shaft Assembly  | `assets/models/input-shaft.stl`    |
-| Beam-Balancing Robot  | `assets/models/beam-balancer.stl`  |
+
+`input-shaft.stl` was built by merging the per-part STL exports of the
+`Input_shaft_assay_4_Proj2` assembly (each part is exported in the assembly's
+global coordinates, so concatenating them reassembles the gearbox).
+
+The Project Murph viewer was removed (the full assembly STL wasn't available); the
+Murph project now shows CAD renders instead.
 
 ### How to export an STL from SolidWorks
 1. Open the assembly (`.SLDASM`).
