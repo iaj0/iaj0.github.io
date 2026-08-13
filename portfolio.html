@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio — Iram Anwar</title>
+<meta name="description" content="Selected engineering projects by Iram Anwar — robotics, computer vision, CNC, battery systems, and interactive 3D CAD models." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23efe7d6'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' font-weight='700' text-anchor='middle' fill='%236b4a2f'%3EIA%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IM+Fell+English:ital@0;1&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Primary">
+    <a class="brand" href="index.html"><span class="mono">IA</span> Iram&nbsp;Anwar</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+      <li><a href="resume.html">Résumé</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Portfolio header -->
+  <section class="section" style="padding-bottom:1rem">
+    <div class="wrap section-head reveal">
+      <span class="eyebrow">A cabinet of works</span>
+      <h2 style="font-size:clamp(2.4rem,6vw,3.8rem)">The Portfolio</h2>
+      <p class="lead" style="margin-top:1rem">A collection of things I have designed, built, coded, and machined — from industrial sensor fixtures and autonomous robots to computer-vision experiments and hand-turned CNC woodwork. Two coursework assemblies are rendered below as live 3-D models you can turn in your hands.</p>
+      <div class="flourish"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2 4 6 4 6 8s-4 4-6 12c-2-8-6-8-6-12s4-4 6-8z"/></svg></div>
+    </div>
+  </section>
+
+  <!-- ===== Interactive 3D models ===== -->
+  <section class="section section--dark" id="models" style="padding-top:2.5rem">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Turn them in your hands</span>
+        <h2>Interactive 3-D Models</h2>
+        <p class="lead" style="color:#cdb98f">Drag to orbit &middot; scroll to zoom. Real SolidWorks exports load here when available; an interactive preview stands in until then.</p>
+      </div>
+
+      <div class="models reveal">
+        <div class="model-card">
+          <h3>Input Shaft Assembly</h3>
+          <p class="model-sub">Mechatronics design coursework — stepped shaft, spur gears &amp; keyway</p>
+          <div class="model-viewport" data-model="shaft" data-stl="assets/models/input-shaft.stl">
+            <span class="model-badge">Loading…</span>
+            <div class="model-loading">Preparing model…</div>
+            <span class="model-hint">drag to orbit &middot; scroll to zoom</span>
+          </div>
+          <div class="model-controls">
+            <button data-action="rotate">Auto-rotate</button>
+            <button data-action="wire">Wireframe</button>
+            <button data-action="reset">Reset view</button>
+          </div>
+        </div>
+
+        <div class="model-card">
+          <h3>Beam-Balancing Robot</h3>
+          <p class="model-sub">MTE 380 final — a ball-and-beam control system</p>
+          <div class="model-viewport" data-model="beam" data-stl="assets/models/beam-balancer.stl">
+            <span class="model-badge">Loading…</span>
+            <div class="model-loading">Preparing model…</div>
+            <span class="model-hint">drag to orbit &middot; scroll to zoom</span>
+          </div>
+          <div class="model-controls">
+            <button data-action="rotate">Auto-rotate</button>
+            <button data-action="wire">Wireframe</button>
+            <button data-action="reset">Reset view</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section class="section">
+    <div class="wrap">
+
+      <!-- 1 · Go-Switch Sleeve -->
+      <article class="project reveal" id="goswitch">
+        <div class="project__head">
+          <span class="project__num">01</span>
+          <div>
+            <h3 class="project__title">Go-Switch Sleeve</h3>
+            <p class="project__meta">Industrial instrumentation · design &amp; manufacturing</p>
+          </div>
+        </div>
+        <div class="tags"><span class="tag">SolidWorks</span><span class="tag">3D Printing</span><span class="tag">DFM</span><span class="tag">Sensors</span></div>
+        <div class="project__body">
+          <div class="project__gallery gallery gallery--3">
+            <div class="frame-img"><img src="assets/img/projects/goswitch-1.jpg" alt="Red 3D-printed go-switch sleeves" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/goswitch-2.jpg" alt="Go-switch sleeves with sensor and wiring" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/goswitch-3.jpg" alt="A batch of finished go-switch sleeves" loading="lazy"></div>
+          </div>
+          <div class="project__desc">
+            <p>A go-switch is a sensor used across many environments; here it warned engineers of pipeline failures. In the harsh conditions where they were mounted, the sensors threw false warnings — wasting time and forcing plant shutdowns.</p>
+            <p>Working from technical drawings provided by the engineers, I designed and produced these protective sleeves. Their implementation drastically improved the stability of the sensors and, more importantly, increased plant up-time.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2 · Mars Rover -->
+      <article class="project project--reverse reveal" id="rover">
+        <div class="project__head">
+          <span class="project__num">02</span>
+          <div>
+            <h3 class="project__title">UW Mars Rover — Vision &amp; Comms</h3>
+            <p class="project__meta">University of Waterloo Robotics Team · software &amp; mechanical</p>
+          </div>
+        </div>
+        <div class="tags"><span class="tag">ROS2</span><span class="tag">C++</span><span class="tag">OpenCV</span><span class="tag">PyQt</span><span class="tag">NVIDIA Jetson</span></div>
+        <div class="project__body">
+          <div class="project__gallery gallery gallery--3">
+            <div class="frame-img"><img src="assets/img/projects/rover-1.jpg" alt="Mars Rover chassis" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/rover-2.jpg" alt="ROS2 video-stream GUI in testing" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/rover-3.jpg" alt="UW Robotics hardware setup" loading="lazy"></div>
+          </div>
+          <div class="project__desc">
+            <p>On the software team I measured how much data SiK telemetry radios could carry between a laptop and an NVIDIA Jetson using a ROS2 publisher and subscriber.</p>
+            <p>In parallel I integrated OpenCV and PyQt into a driver GUI with multiple camera angles: video is published from the Jetson on the rover, sent over comms, and displayed as a live feed by a ROS2 subscriber on the receiving laptop.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3 · LEGO Guitar Robot -->
+      <article class="project reveal" id="guitar">
+        <div class="project__head">
+          <span class="project__num">03</span>
+          <div>
+            <h3 class="project__title">LEGO EV3 Guitar-Playing Robot</h3>
+            <p class="project__meta">First-semester cornerstone project · Waterloo</p>
+          </div>
+        </div>
+        <div class="tags"><span class="tag">LEGO EV3</span><span class="tag">Mechanism Design</span><span class="tag">Camshaft</span><span class="tag">Color Sensing</span></div>
+        <div class="project__body">
+          <div class="project__gallery gallery gallery--3">
+            <div class="frame-img"><img src="assets/img/projects/guitar-1.jpg" alt="Top view of the LEGO guitar-playing robot" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/guitar-2.jpg" alt="Camshaft fretting mechanism on the strings" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/guitar-4.jpg" alt="Picking mechanism over the sound hole" loading="lazy"></div>
+          </div>
+          <div class="project__desc">
+            <p>My final project for my first semester at Waterloo, built with teammates: a robot made from LEGO EV3 and Tetrix parts that plays a one-string guitar. It can play ten different notes using a camshaft system.</p>
+            <p>Colour sensors read songs printed on paper as coloured squares — arranged in pairs, one square for timing and one for the note. In our demo, we managed to play <em>Seven Nation Army</em> and <em>Eye of the Tiger</em>.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4 · Toyota Innovation Challenge -->
+      <article class="project project--reverse reveal" id="toyota">
+        <div class="project__head">
+          <span class="project__num">04</span>
+          <div>
+            <h3 class="project__title">Toyota Innovation Challenge</h3>
+            <p class="project__meta">Hackathon · computer vision</p>
+          </div>
+        </div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">Hough Transform</span></div>
+        <div class="project__body">
+          <div class="project__gallery gallery gallery--2">
+            <div class="frame-img"><img src="assets/img/projects/toyota-1.jpg" alt="Car on a conveyor with the finish line marked" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/toyota-2.jpg" alt="Conveyor rail used in the challenge" loading="lazy"></div>
+          </div>
+          <div class="project__desc">
+            <p>Completed during my first term at Waterloo, this hackathon asked us to write a Python OpenCV program that continuously reads and highlights the wheels of a moving car on a conveyor belt.</p>
+            <p>The program had to end after the car reached a certain point on the conveyor, marked with a red line. With the help of Hough-transform functions, we successfully tracked the moving wheels by the end of the event.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5 · CNC Woodwork -->
+      <article class="project reveal" id="cnc">
+        <div class="project__head">
+          <span class="project__num">05</span>
+          <div>
+            <h3 class="project__title">CNC Woodwork &amp; CAM</h3>
+            <p class="project__meta">Fusion 360 CAM · CNC machining</p>
+          </div>
+        </div>
+        <div class="tags"><span class="tag">Fusion 360</span><span class="tag">CAM</span><span class="tag">CNC</span><span class="tag">G&amp;M Code</span></div>
+        <div class="project__body">
+          <div class="project__gallery gallery gallery--3">
+            <div class="frame-img"><img src="assets/img/projects/cnc-chelsea.jpg" alt="CNC-carved Chelsea FC crest in wood" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/cnc-checkers.jpg" alt="Turned wooden checkers set" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/cnc-cam.jpg" alt="Fusion 360 CAM toolpath simulation" loading="lazy"></div>
+          </div>
+          <div class="project__desc">
+            <p>A series of CNC projects designed and toolpathed in Fusion 360. I modelled each part, generated the toolpaths, and machined them — from a carved Chelsea&nbsp;FC crest to a fully turned wooden checkers set.</p>
+            <p>The work spans both design and manufacture: CAD, CAM strategy, and the G&amp;M code that drives the machine.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 6 · Project Murph -->
+      <article class="project project--reverse reveal" id="murph">
+        <div class="project__head">
+          <span class="project__num">06</span>
+          <div>
+            <h3 class="project__title">Project Murph — Original Quadruped</h3>
+            <p class="project__meta">Original design · in progress</p>
+          </div>
+        </div>
+        <div class="tags"><span class="tag">Inverse Kinematics</span><span class="tag">LIDAR</span><span class="tag">Computer Vision</span><span class="tag">Raspberry Pi</span><span class="tag">Fusion 360</span></div>
+        <div class="project__body">
+          <div class="project__gallery gallery gallery--2">
+            <div class="frame-img"><img src="assets/img/projects/murph-1.jpg" alt="Render of the Project Murph quadruped robot" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/murph-2.jpg" alt="3D-printed leg and gripper prototype" loading="lazy"></div>
+          </div>
+          <div class="project__desc">
+            <p>An original quadruped robot designed to autonomously measure the number of steps and the elevation of a staircase in an urban setting — data used to judge how accessible it is for disabled people.</p>
+            <p>Movement is driven by inverse kinematics; LIDAR and ultrasonic sensors gather data while computer vision handles object detection and navigation. Core hardware: Raspberry&nbsp;Pi&nbsp;4, Arduino Mega, a PWM motor controller, a Pi camera, and ten servos.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 7 · FTC Robot -->
+      <article class="project reveal" id="ftc">
+        <div class="project__head">
+          <span class="project__num">07</span>
+          <div>
+            <h3 class="project__title">FIRST Tech Challenge Robot</h3>
+            <p class="project__meta">Team 9202, “Her Majesty&rsquo;s Engineers” · 1st Place Design Award</p>
+          </div>
+        </div>
+        <div class="tags"><span class="tag">Fusion 360</span><span class="tag">CAD</span><span class="tag">Mechanism Design</span><span class="tag">FTC</span></div>
+        <div class="project__body">
+          <div class="project__gallery gallery gallery--3">
+            <div class="frame-img"><img src="assets/img/projects/ftc-1.jpg" alt="CAD render of the FTC robot" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/ftc-2.jpg" alt="Alternate CAD view of the FTC robot" loading="lazy"></div>
+            <div class="frame-img"><img src="assets/img/projects/ftc-3.jpg" alt="The built FTC robot with phone mount" loading="lazy"></div>
+          </div>
+          <div class="project__desc">
+            <p>This assembly helped Team&nbsp;9202, Her Majesty&rsquo;s Engineers, win the 1st Place Design Award at our tournament in Alexandria. It impressed the judges and established a permanent database of parts and CAD files for future members through Fusion&nbsp;360&rsquo;s cloud-based sharing.</p>
+            <p>Completed by myself over a four-month period, the model includes omnidirectional wheels, two REV hub controllers, a pulley crane, DC motors, continuous servos, and more.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--tint">
+    <div class="wrap section-head reveal">
+      <span class="eyebrow">Let&rsquo;s build something</span>
+      <h2>Care to see the résumé?</h2>
+      <div class="hero__cta" style="margin-top:1.6rem">
+        <a class="btn btn--primary" href="resume.html">Read the Résumé</a>
+        <a class="btn" href="mailto:iram@live.com.sg">Get in touch</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        Iram Anwar
+        <p>Mechatronics engineer working across batteries, manufacturing, and robotics. Currently based in Crozet, Virginia.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="resume.html">Résumé</a>
+        </div>
+        <div class="footer-col">
+          <h4>Elsewhere</h4>
+          <a href="mailto:iram@live.com.sg">iram@live.com.sg</a>
+          <a href="https://www.linkedin.com/in/iram-an" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/iaj0" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-fine">
+      <span>&copy; <span data-year>2026</span> Iram Anwar. All rights reserved.</span>
+      <span>Designed &amp; built in the Victorian manner.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox"><button class="lightbox__close" aria-label="Close">&times;</button><img alt="" /></div>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+<script type="module" src="js/three-viewer.js"></script>
+<script>
+  /* Fallback if the 3-D library can't be reached (e.g. offline) */
+  setTimeout(function () {
+    document.querySelectorAll(".model-loading").forEach(function (el) {
+      el.innerHTML = "The live 3-D preview needs an internet connection.";
+      var badge = el.parentElement.querySelector(".model-badge");
+      if (badge) badge.textContent = "Offline";
+    });
+  }, 10000);
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
